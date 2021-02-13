@@ -6,6 +6,7 @@ public class Circulo_VAS extends FiguraGeometrica_VAS {
 	
 	public Circulo_VAS(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0)r=-r;
 		radio = r;
 	}
 
