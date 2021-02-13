@@ -21,8 +21,8 @@ public class Rectangulo_VAS extends FiguraGeometrica_VAS {
 	}
 	/**
 	 * Sobreescribe el metodo area de la clase abstracta para que cuando
-	 * se llame al metodo area sea este el que se aplique al objeto Rectangulo
-	 * en este caso retorna el producto de los lados de la geometria.
+	 * se llame al metodo area sea este el que se aplique al objeto Rectangulo.
+	 * @return en este caso retorna el producto de los lados de la geometria. 
 	 */
 	@Override
 	public double area() {
@@ -31,7 +31,8 @@ public class Rectangulo_VAS extends FiguraGeometrica_VAS {
 	/**
 	 * Sobreescribe el metodo perimetro de la calse abstracta FiguraGeometrica
 	 * para que cuando se llame al metodo perimetro sea este el que se aplique
-	 * al objeto Rectangulo en este caso retorna la suma del doble de los lados
+	 * al objeto Rectangulo.
+	 * @return en este caso retorna la suma del doble de los lados
 	 * de la geometria.
 	 */
 	
